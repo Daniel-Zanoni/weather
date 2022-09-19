@@ -1,6 +1,16 @@
+import { Header } from './components/Header/Header';
+import { Container } from './styles/Container';
+
+import './styles/global.css';
+
 function App() {
     return (
-        <h1>Hello World</h1>
+        <>
+            <Header />
+            <Container>
+                <h1>Hello World</h1>
+            </Container>
+        </>
     )
 }
 
