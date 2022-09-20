@@ -1,4 +1,5 @@
 import { Header } from './components/Header/Header';
+import { ListBox } from './components/ListBox/ListBox';
 import { Container } from './styles/Container';
 
 import './styles/global.css';
@@ -8,10 +9,11 @@ function App() {
         <>
             <Header />
             <Container>
-                <h1>Hello World</h1>
+                <h1>Estudando ReactJS mais a fundo.</h1>
+                <ListBox />
             </Container>
         </>
-    )
+    );
 }
 
 export default App
